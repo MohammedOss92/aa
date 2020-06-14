@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Reg_LogIn</string>
+    <string name="pref_file">com.example.preference_file</string>
+    <string name="pref_login_status">com.example.preference_login_status</string>
+    <string name="pref_user_name">com.example.preference_user_name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
