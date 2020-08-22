@@ -1,4 +1,4 @@
-package com.example.reg_login;
+package com.example.reg_login.app;
 
 
 import android.app.Activity;
@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.reg_login.R;
 
 
 /**
@@ -40,7 +42,7 @@ public class WelFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_wel, container, false);
 
         textView=view.findViewById(R.id.txt_name_info);
-        textView.setText("Welcome "+MainActivity.prefConfig.readName());
+//        textView.setText("Welcome "+MainActivity.prefConfig.readName());
         btn_logout=view.findViewById(R.id.btn_logout);
 
         btn_logout.setOnClickListener(new View.OnClickListener() {
